@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "color-math"
+version = "0.1.0"
+description = "Equations to convert between color scales"
+authors = ["Brady Rau <blrau96@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "color_math"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
